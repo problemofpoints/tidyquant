@@ -166,7 +166,8 @@ tq_index_options <- function() {
       "DOWGLOBAL",
       "SP400",
       "SP500",
-      "SP600"
+      "SP600",
+      "XLC","XLP","XLY","XLE","XLF","XLV","XLI","XLB","XLRE","XLK","XLU"
       )
 }
 
@@ -218,7 +219,18 @@ spdr_mapper <- function(x) {
            SP400       = "MDY",
            SP500       = "SPY",
            SP600       = "SLY",
-           SP1000      = "SMD"
+           SP1000      = "SMD",
+           XLC = "XLC",
+           XLP = "XLP",
+           XLY = "XLY",
+           XLE = "XLE",
+           XLF = "XLF",
+           XLV = "XLV",
+           XLI = "XLI",
+           XLB = "XLB",
+           XLRE = "XLRE",
+           XLK = "XLK",
+           XLU = "XLU"
            )
 }
 
